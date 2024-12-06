@@ -1,0 +1,74 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "Jwt": {
+    "Key": "YourSecretKeyHereYourSecretKeyHere",
+    "Authority": "http://10.15.68.242:8888/realms/master",
+    "MetadataAddress": "http://10.15.68.242:8888/realms/master/.well-known/openid-configuration",
+    "Audience": "account",
+    "RequireHttpsMetadata": false,
+    "ExpiryMinutes": 120
+  },
+  "Fga": {
+    "Url": "http://10.15.68.242:8080",
+    "ClientId": "",
+    "ClientSecret": ""
+  },
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Warning",
+        "System": "Warning"
+      }
+    }
+  },
+  "Elastic": {
+    "Url": "http://10.15.68.242:9200"
+  },
+  "Cache": {
+    "Redis": "localhost:6379",
+    "ConnectionTimeout": 10,
+    "AbsoluteExpirationInHours": 1,
+    "SlidingExpirationInMinutes": 30
+  },
+  "MassTransit": {
+    "Rabbit": {
+      "Url": "10.14.102.3:5672",
+      "Port": "5672",
+      "Username": "geo",
+      "Password": "g3ofp12024",
+      "ConnectionString": "amqp://geo:g3ofp12024@rabbitmq-uat.fis-mbf-geo-uat.svc.cluster.local:5672",
+      "ConnectionTimeout": 10,
+      "FileExchange": "minio-events",
+      "QueueName": "ConvertTransit",
+      "FileQueue": "worker_process_ose_machine", // Các máy import dùng chung queue này để tránh bị nhận song song lệnh
+      "ElasticExchange": "worker_process_elastic_machine",
+      "ElasticQueue": "worker_process_elastic_machine" // Các máy import dùng chung queue này để tránh bị nhận song song lệnh
+    }
+  },
+  "Master": {
+    "Connection": "Server=10.14.122.54;Port=5433;Database=geobase;User Id=postgresql;Password=g3O#FPT@2024",
+    "Provider": "postgres",
+    "EnsureCreated": true
+  },
+  "MinIOInfor": {
+    "Path": "C:\\UAT\\FileDownload\\",
+     "endpoint": "minio-uat.fis-mbf-geo-uat.svc.cluster.local:9000",
+    "accessKey": "kvTN3kgVVMTzh4NJa3zQ",
+    "secretKey": "uY8714PsJraOilMGA8VYxPor42cgAw7gPK8IzG74"
+  },
+  "ExtensionsInfor": {
+    "PathExe": "C:\\UAT\\OKD_New\\HandleMessageBroker.exe",
+    "RowNumber": "7000",
+    "localNames": "curveMember,MultiCurve,geometryProperty,plot,FeatureCollection,LinearRing,exterior,posList,boundedBy,Envelope,upperCorner,lowerCorner,MultiSurface,featureMember,surfaceMember",
+    "FileSupport": ".dwg,.dgn,.shp,.zip,.tab,.gml,.kml,.csv,.xlsx,.xls,.tif"
+  }
+}
+
+
