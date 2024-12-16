@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|c:\\users\\nguyenhv2\\source\\repos\\publish\\publish\\controllers\\publicreceivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|solutionrelative:publish\\controllers\\publicreceivercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|c:\\users\\nguyenhv2\\source\\repos\\publish\\publish\\context\\resourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|solutionrelative:publish\\context\\resourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|c:\\users\\nguyenhv2\\source\\repos\\publish\\publish\\databaseconfig\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|solutionrelative:publish\\databaseconfig\\databaseconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|c:\\users\\nguyenhv2\\source\\repos\\publish\\publish\\model\\dynamicresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|solutionrelative:publish\\model\\dynamicresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|c:\\users\\nguyenhv2\\source\\repos\\publish\\publish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77ED3448-AA47-46B0-962B-940E38FB3B2F}|Publish\\Publish.csproj|solutionrelative:publish\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\DataBaseConfig\\DataBaseConfig.cs",
+              "RelativeDocumentMoniker": "Publish\\DataBaseConfig\\DataBaseConfig.cs",
+              "ToolTip": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\DataBaseConfig\\DataBaseConfig.cs",
+              "RelativeToolTip": "Publish\\DataBaseConfig\\DataBaseConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:09:36.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DynamicResource.cs",
+              "DocumentMoniker": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Model\\DynamicResource.cs",
+              "RelativeDocumentMoniker": "Publish\\Model\\DynamicResource.cs",
+              "ToolTip": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Model\\DynamicResource.cs",
+              "RelativeToolTip": "Publish\\Model\\DynamicResource.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T09:48:12.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PublicReceiverController.cs",
+              "DocumentMoniker": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Controllers\\PublicReceiverController.cs",
+              "RelativeDocumentMoniker": "Publish\\Controllers\\PublicReceiverController.cs",
+              "ToolTip": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Controllers\\PublicReceiverController.cs*",
+              "RelativeToolTip": "Publish\\Controllers\\PublicReceiverController.cs*",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAYwCUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T01:56:01.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResourceContext.cs",
+              "DocumentMoniker": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Context\\ResourceContext.cs",
+              "RelativeDocumentMoniker": "Publish\\Context\\ResourceContext.cs",
+              "ToolTip": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Context\\ResourceContext.cs",
+              "RelativeToolTip": "Publish\\Context\\ResourceContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:42:29.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Program.cs",
+              "RelativeDocumentMoniker": "Publish\\Program.cs",
+              "ToolTip": "C:\\Users\\nguyenhv2\\source\\repos\\Publish\\Publish\\Program.cs",
+              "RelativeToolTip": "Publish\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:00:54.18Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
