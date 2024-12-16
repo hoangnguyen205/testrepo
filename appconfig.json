@@ -1,4 +1,4 @@
-﻿{
+{
   "Logging": {
     "LogLevel": {
       "Default": "Information",
@@ -40,34 +40,35 @@
   "MassTransit": {
     "Rabbit": {
       "Url": "10.14.102.3:5672",
+      //"Url": "10.15.68.242:5672",
       "Port": "5672",
       "Username": "geo",
       "Password": "g3ofp12024",
-      "ConnectionString": "amqp://geo:g3ofp12024@rabbitmq-uat.fis-mbf-geo-uat.svc.cluster.local:5672",
+      "ConnectionString": "amqp://geo:g3ofp12024@localhost:5672",
+      //"ConnectionString": "amqp://geo:g3ofp12024@10.15.68.242:5672",
       "ConnectionTimeout": 10,
       "FileExchange": "minio-events",
       "QueueName": "ConvertTransit",
+      "QueueNameExportTransit": "ExportTransit",
       "FileQueue": "worker_process_ose_machine", // Các máy import dùng chung queue này để tránh bị nhận song song lệnh
       "ElasticExchange": "worker_process_elastic_machine",
       "ElasticQueue": "worker_process_elastic_machine" // Các máy import dùng chung queue này để tránh bị nhận song song lệnh
     }
   },
-  "Master": {
-    "Connection": "Server=10.14.122.54;Port=5433;Database=geobase;User Id=postgresql;Password=g3O#FPT@2024",
-    "Provider": "postgres",
-    "EnsureCreated": true
-  },
   "MinIOInfor": {
-    "Path": "C:\\UAT\\FileDownload\\",
-     "endpoint": "minio-uat.fis-mbf-geo-uat.svc.cluster.local:9000",
+    //"PathZip": "D:\\Works\\GIS_Map\\Code\\ConvertMachine\\ConvertMachine\\HandleMessageBroker\\bin\\Debug\\net8.0\\",
+    "PathZip": "D:\\Works\\GIS_Map\\Code\\ConvertMachine\\ConvertMachine\\HandleMessageBroker\\bin\\Debug\\net8.0\\",
+    "FileExport": "output",
+    "Path": "C:\\output\\",
+    "endpoint": "localhost:9000",
     "accessKey": "kvTN3kgVVMTzh4NJa3zQ",
     "secretKey": "uY8714PsJraOilMGA8VYxPor42cgAw7gPK8IzG74"
   },
   "ExtensionsInfor": {
-    "PathExe": "C:\\UAT\\OKD_New\\HandleMessageBroker.exe",
-    "RowNumber": "7000",
+    "PathExe": "C:\\Users\\nguyenhv2\\Desktop\\convertmachine1\\ConvertMachine\\HandleMessageBroker\\bin\\Debug\\net8.0\\HandleMessageBroker.exe",
+    "RowNumber": "15000",
     "localNames": "curveMember,MultiCurve,geometryProperty,plot,FeatureCollection,LinearRing,exterior,posList,boundedBy,Envelope,upperCorner,lowerCorner,MultiSurface,featureMember,surfaceMember",
-    "FileSupport": ".dwg,.dgn,.shp,.zip,.tab,.gml,.kml,.csv,.xlsx,.xls,.tif"
+    "FileSupport": ".dwg,.dgn,.shp,.zip,.tab,.gml,.kml,.csv,.xlsx,.xls,.tif,.json"
   }
 }
 
